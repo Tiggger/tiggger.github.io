@@ -8,26 +8,20 @@
 #      Markdown formatted page while the second is generated using JSON.
 
 main:
-  - title: "Publications"
-    url: /publications/
 
-  - title: "Talks"
-    url: /talks/    
+- title: "What Is a Polymer?"
+  url: /#what-is-a-polymer
 
-  - title: "Teaching"
-    url: /teaching/    
-    
-  - title: "Portfolio"
-    url: /portfolio/
-        
-  - title: "Blog Posts"
-    url: /year-archive/
-    
-  - title: "CV"
-    url: /cv/
-    
-  # - title: "CV"
-  #   url: /cv-json/
-    
-  - title: "Guide"
-    url: /markdown/
+- title: "History of Polymers"
+  url: /#history-of-polymers
+
+- title: "Knotted Polymers: My Contribution"
+  url: /#knotted-polymers-my-contribution
+
+- title: "Why Would My Parents Care?"
+  url: /#why-would-my-parents-care
+
+- title: "How Can I Get Involved"
+  url: /#about-a-physics-degree
+
+

@@ -179,13 +179,22 @@
 
   a {
     display: block;
-    margin: 0 1rem;
+    margin: 0 0.55rem;
     padding: 0.5rem 0;
+    font-size: 0.92rem;
+    white-space: nowrap;
     color: var(--global-masthead-link-color);
     text-decoration: none;
 
     &:hover {
       color: var(--global-masthead-link-color-hover);
+    }
+  }
+
+  @include breakpoint(max-width $large) {
+    a {
+      margin: 0 0.35rem;
+      font-size: 0.86rem;
     }
   }
 
@@ -264,6 +273,8 @@
     position: absolute;
     top: 100%;
     right: 0;
+    min-width: 280px;
+    max-width: min(90vw, 420px);
     margin-top: 15px;
     padding: 5px;
     border: 1px solid var(--global-border-color);
@@ -275,6 +286,8 @@
       margin: 0;
       padding: 10px 20px;
       font-size: $type-size-5;
+      white-space: normal;
+      line-height: 1.35;
 
       &:hover {
         color: var(--global-masthead-link-color-hover);
@@ -316,6 +329,46 @@
         border-bottom: none;
       }
     }
+  }
+}
+
+.static-nav {
+  .visible-links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 0.1rem 0.45rem;
+  }
+
+  .visible-links > li {
+    display: block;
+  }
+
+  a {
+    display: block;
+    margin: 0 0.35rem;
+    padding: 0.45rem 0;
+    font-size: 0.92rem;
+    white-space: nowrap;
+    color: var(--global-masthead-link-color);
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: var(--global-masthead-link-color-hover);
+  }
+
+  #theme-toggle a {
+    width: 25px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  button,
+  .hidden-links {
+    display: none !important;
   }
 }
 

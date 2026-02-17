@@ -3,26 +3,26 @@
     ========================================================================== */
 
 /* Color codes used for the theme */
-$primary-color              : #0ea1c5;
+$primary-color              : #00c4df; /* capri */
 $gray                       : #7a8288;
 $dark-gray                  : mix(#000, $gray, 40%);
 $darker-gray                : mix(#000, $gray, 60%);
 $light-gray                 : mix(#fff, $gray, 50%);
 
-$background                 : #474747;
+$background                 : #0f0f0f; /* onyx */
 $background-light           : mix(#fff, $background, 80%);
 $background-lighter         : mix(#fff, $background, 90%);
 $text                       : #ffffff;
-$link                       : #0ea1c5;
-$link-dark                  : mix(#000, $link, 25%);
-$link-light                 : mix(#fff, $link, 25%);
+$link                       : #00c4df; /* capri */
+$link-dark                  : #f4aa00; /* complementary amber */
+$link-light                 : #58d6e7;
 
 /* Color codes used for the site */
-$danger-color               : #ee5f5b;
-$info-color                 : #2f7f93;
+$danger-color               : #c10043; /* crimson */
+$info-color                 : #0091b5; /* cerulean */
 $notice-color               : #7a8288;
 $success-color              : #62c462;
-$warning-color              : #f89406;
+$warning-color              : #f4aa00; /* amber */
 
 /* Other basic settings for the template */
 $border-radius              : 4px;
@@ -48,9 +48,8 @@ html[data-theme="dark"] {
     --global-link-color-hover           : #{$link-dark};
     --global-link-color-visited         : #{$link-light};
     --global-masthead-link-color        : #{$text};
-    --global-masthead-link-color-hover  : #{$primary-color};
+    --global-masthead-link-color-hover  : #f4aa00;
     --global-text-color                 : #{$text};
     --global-text-color-light           : #f3f3f3;
     --global-thead-color                : #{$background-lighter};
 }
-
