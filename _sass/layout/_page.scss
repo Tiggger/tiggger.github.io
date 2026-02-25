@@ -122,7 +122,7 @@ body {
 }
 
 .scroll-section {
-  min-height: calc(100vh - 120px);
+  min-height: calc(100vh - 84px);
   scroll-snap-align: start;
   scroll-margin-top: 100px;
   display: flex;
@@ -133,6 +133,15 @@ body {
 
 .scroll-section h2 {
   margin-top: 0;
+}
+
+.intro-section {
+  min-height: calc(100vh - 84px);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0.75rem 0 1rem;
+  scroll-margin-top: 100px;
 }
 
 .page__hero {
@@ -432,11 +441,57 @@ body {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 12px;
+  margin: 1.25rem 0;
 }
 .triple-video video {
   width: 100%;
   height: auto;
+  background: #000;
+}
+
+.activity-arrow {
+  width: min(820px, 100%);
+  margin: 0 auto 0.75rem;
+  text-align: center;
+}
+
+.activity-arrow span {
+  display: block;
+  padding: 0.45rem 2.2rem 0.45rem 1rem;
+  color: #fff;
+  background: linear-gradient(90deg, #0091b5 0%, #00325f 100%);
+  clip-path: polygon(0 0, calc(100% - 26px) 0, 100% 50%, calc(100% - 26px) 100%, 0 100%, 12px 50%);
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.simulate-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.simulate-btn {
+  border: 1px solid var(--global-border-color);
+  background: var(--global-base-color);
+  color: #fff;
+  padding: 0.5rem 1rem;
+  font-weight: 700;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.simulate-btn:hover {
+  filter: brightness(1.08);
 }
 @media (max-width: 900px) {
   .triple-video { grid-template-columns: 1fr; }
+}
+
+.triple-photo {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin: 1.25rem 0;
+  justify-content: center;
+  background-position: center;
 }
