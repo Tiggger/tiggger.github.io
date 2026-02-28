@@ -10,41 +10,27 @@ redirect_from:
 
 <section class="intro-section">
   <h2>Welcome To Polymer Physics!</h2>
-  <!-- <p>Here I will say some words on the fact that there is more to physics than astrophysics and particle physics and why its important to consider these other options.</p>
-  <p>I think havin a really nice high quality video of the simulation here would be really cool. Play it high quality, high frame rate, large dimensions.</p> -->
 
-  <video class="sync-video" muted autoplay loop playsinline preload="auto" style="max-width: 50%; height: auto; display: block; margin: 1rem auto 0;">
-        <source src="{{ '/files/publicSummary_a0.mp4' | relative_url }}" type="video/mp4">
-  </video>
+<video class="sync-video" muted autoplay loop playsinline preload="auto" style="max-width: 50%; height: auto; display: block; margin: 1rem auto 0;">
+  <source src="{{ '/files/publicSummary_a0.mp4' | relative_url }}" type="video/mp4">
+</video>
 
-  <p><strong>Theres more to physics than stars and particles</strong>. Ask any sixth former what they want to do with physics, and the answers are almost always "astrophysics" or "particle physics." They're fascinating fields but they employ a tiny fraction of professional physicists.</p>
-  
-  <p><strong>Soft matter physics</strong> — the study of polymers, colloids, and gels offers something different. They offer chance to <em>design and build</em> the materials of the future.</p>
-  
-  <h3>Everyday Physics</h3>
-  <ul>
-      <li><strong>Foldable phone screens?</strong> Polymer physics </li>
-      <li><strong>Continuous glucose monitors?</strong> Flexible polymer electronics </li>
-      <li><strong>Why your yogurt lid won't recycle?</strong> Mixing of polymers </li>
-  </ul>
-  
-  <h3>Where Soft Matter Physicists Work</h3>
-  <ul>
-      <li><strong>Healthcare:</strong> Drug delivery, wound dressings, biodegradable implants </li>
-      <li><strong>Sustainability:</strong> Bioplastics, recyclable packaging, circular economy </li>
-      <li><strong>Technology:</strong> Batteries, flexible displays, 5G/6G materials </li>
-  </ul>
-  
-  <p>Astrophysics asks "what's out there?" Soft matter asks "what can <em>we</em> make?" Both are deep, both are challenging, but only one lets you hold the answer in your hands.</p>
+<p>If you ask most sixth formers what they want to do with physics, you'll almost always get the same two answers: astrophysics or particle physics. These are both are incredible. But here is something that you may not have realised: they employ a tiny fraction of the physicists out there.</p>
+
+<p>So where is everyone else? A lot of them are working on <strong>soft matter</strong> — the physics of small, squishy, flexible and complex materials that make up most of the world around you. At the end of the day, we are squishy, and most of the things we interact with are. Its important that we understand this!</p>
+
+<p>What makes soft matter different is that you get to <em>build things</em>. Astrophysics asks "what's out there?" Soft matter asks "what can <em>we</em> make?", and then you go and make it. Physicists in this field work across healthcare, sustainable materials, and next-generation technology, often moving between lab bench and theory in the same week.</p>
+
+<p>If you're curious about physics but aren't sure you want to spend your career looking at things you can never touch, soft matter might be exactly what you're looking for. Have a look at what I've been getting up to in my masters project to get an idea of what we get up to.</p>
 
   </section>
 
 <div class="scroll-sections">
   <section id="what-is-a-polymer" class="scroll-section">
     <h2>What Is a Polymer? A Physicist's View</h2>
-    <p>A polymer is a very long molecule built from many identical smaller units, called monomers, joined together end-to-end. You might recognise this from your chemistry classes, and you're right! But where a chemist might focus on how to make them or their chemical structure, a physicist zooms out to ask: <strong>what remarkable physical properties emerge simply because they are so long?</strong></p>
+    <p>A polymer is a very long molecule built from many identical smaller units, called monomers, joined together end-to-end. You might recognise this from your chemistry classes, and you're right! But where a chemist might focus on how to make them, or their chemical structure, a physicist zooms out to ask: <strong>what physical properties emerge because of their long, bendy structure?</strong> The reason we even care for polymers is that we see them everywhere in nature. For example, DNA is a polymer, and so are proteins!</p>
 
-    <p>To answer this, physicists use a beautifully simple model: the <strong>bead-spring chain</strong>.</p>
+    <p>To try and better understand polymers, physicists use a beautifully simple model: the <strong>bead-spring chain</strong>.</p>
 
     <div style="text-align: center;">
         <img src="{{ '/images/polymerFigure.png' | relative_url }}"
@@ -52,15 +38,15 @@ redirect_from:
              style="max-width: 60%; height: auto; margin: 1.25rem 0;">
     </div>
 
-    <p>In this model, each <strong>bead represents an entire monomer unit</strong>. We don't care about the individual atoms inside it, just the monomer's position. The <strong>spring represents the chemical bond</strong> connecting one monomer to the next. This spring isn't perfectly rigid; it has some flexibility, allowing the chain to bend and wiggle. This is a good starting point, but it's only half the story.</p>
+    <p>In this model, each <strong>bead represents a monomer</strong>. In real life monomers are actually made of several atoms, but as physicist, we don't particularly care about these. We only care for the monomer's position. The <strong>spring represents the chemical bond</strong> connecting one monomer to the next. This spring isn't perfectly rigid, it has some flexibility which allows the chain to bend and wiggle. This is a great starting point, but to understand something like DNA we need to think about what a polymer looks like when in a liquid bath. This is because inside of the cell, where DNA lives, is filled with fluid.</p>
 
     <h3>The Secret Ingredient: Constant Jiggling</h3>
-    <p>The real magic happens when we remember that polymers (especially in a liquid) are not static. They are constantly being kicked around by the thermal motion of the surrounding molecules. Imagine our bead-spring chain placed in a turbulent storm – it would be tossed and turned into a million different shapes.</p>
-    <p>This constant, random jiggling means a long, flexible polymer in solution almost never stretches out. Instead, it curls up into a chaotic, ever-changing ball known as a <strong>random coil</strong>. This coiled-up state is the polymer's natural, most probable state. It's a core idea in physics and explains a huge amount of polymer behaviour.</p>
+    <p>Polymers in a liquid are not static. They are constantly being kicked around by the thermal motion of the surrounding liquid molecules.</p>
+    <p>This constant and random jiggling means a long, flexible polymer in liquid will almost never stretches out. Instead, it curls up into a chaotic, ever-changing ball known as a <strong>random coil</strong>. This coiled-up state is the polymer's natural, most probable state.</p>
 
     <div class="key-idea" style="background-color: #e7f3ff; padding: 1rem; border-radius: 8px; margin: 1.5rem 0;">
     <h4 style="margin-top: 0;">💡 The Key Insight: It's About Probability, Not Forces</h4>
-    <p>You might have met the idea of <strong>entropy</strong> in thermal physics or in chemistry. Its quite a scary concept, but in its simplest form it is often described as a measuring "disorder" or how many ways you can arrange something. The more possible arrangements, the higher the entropy.</p>
+    <p>You might have met the idea of <strong>entropy</strong> in thermal physics or in chemistry. Its can be quite an intimidating concept, but in its simplest form it is often described as a measuring "disorder" or how many ways you can arrange something to have the same outcome. The more possible arrangements of doing the same thing, the higher the entropy.</p>
     
     <p>Now think about our polymer chain:</p>
     <ul>
@@ -84,7 +70,7 @@ redirect_from:
         </div>
     </ul>
     
-    <p>It is fact that nature always evolves towards states with <strong>higher entropy</strong> (more probable arrangements), the polymer naturally spends almost all its time coiled up. We can call this coiled state is called a <strong>random coil</strong>, and it's the polymer's default, most natural state. The constant jiggling from thermal energy ensures it keeps exploring all these different coiled arrangements.</p>
+    <p>It is fact that things in nature evolve towards states with <strong>higher entropy</strong>, so the polymer naturally spends almost all its time coiled up. We call this coiled state a <strong>random coil</strong>, and it's the polymer's most natural state. The constant jiggling from thermal energy ensures it keeps exploring all these different coiled arrangements.</p>
     
     <p style="margin-bottom: 0;">So when you stretch a polymer, you're not just pulling against bonds but you're forcing it into a much <strong>less probable</strong> state with lower entropy. The polymer "wants" to return to its high-entropy, coiled mess. That desire is what creates the elastic force!</p>
 </div>
@@ -93,123 +79,28 @@ redirect_from:
     <p>This brings us back to the springs in our model. If you try to stretch a polymer out of its favourite random coil shape, you are fighting against entropy. The chains constant jiggling will fight to return to its messy, coiled state. This creates a restoring force.</p>
     <p>Remarkably, for small stretches, this force follows the same mathematical rule as a normal spring: <strong>\(F = kx\)</strong> (Hooke's Law). This is why the model works so well! But always remember: a normal metal spring's force comes from bending atomic bonds (<strong>energetic</strong>). A polymer's elasticity comes from a fight against the natural tendency towards disorder (<strong>entropic</strong>).</p>
 
-</section>
+    </section>
 
   <section id="history-of-polymers" class="scroll-section">
-    <h2>A Very Short History: Why Physics Needed a New Approach</h2>
-    
-    <p>In the 19th century, physicists were very successful at describing the motion of planets and the behaviour of simple gases. But when they turned their attention to strange, stretchy materials like natural rubber, their traditional methods failed. Rubber didn't obey simple, predictable laws. It needed a new way of thinking.</p>
-    
-    <h3>The Chemistry View: Long Chains</h3>
+    <h2>A Very Short History</h2>
 
-    <p>
-    The first breakthrough came from chemistry. For a long time, scientists thought materials like rubber were just random "goo" which were made from small molecules that stick together. Then, in 1920, the German chemist Hermann Staudinger proposed an idea that these were actually <strong>enormous molecules</strong> with small repeating units joined by chemical bonds to form long chains, or polymers. It took over a decade for his idea to be accepted. He was finally awarded the Nobel Prize in Chemistry in 1953 for this work
-    <a href="https://en.wikipedia.org/wiki/Hermann_Staudinger" target="_blank" rel="noopener">[1]</a>.
-    </p>
+    <p>Most of physics has ancient roots. Newton's mechanics is 350 years old. Thermodynamics was done and dusted by the 1850s. Even quantum mechanics is now a century old. Polymer physics is little different, it's a genuinely young field, and the many of the people who built are still living today.</p>
 
-    <div style="display: flex; flex-direction: column; align-items: center; width: 100%; margin: 1.25rem 0;">
-    <div style="max-width: 25%;">
-        <img src="{{ '/images/Hermann_Staudinger.jpg' | relative_url }}"
-             alt="A portrait photograph of the chemist Hermann Staudinger."
-             style="width: 100%; height: auto; display: block;">
-        <p style="margin-top: 0.5rem; font-style: italic; color: #555; font-size: 0.9rem; text-align: center;">
-            <strong>Hermann Staudinger</strong> (1881–1965) in 1953, the same year he won the Nobel Prize in Chemistry for proposing the existence of macromolecules.
-        </p>
-    </div>
-    </div>
+    <p>The starting point was pretty simple: nobody could explain rubber. It stretches enormously and springs back perfectly, but when physicists tried to apply their usual tools, nothing worked. The answer, it turned out, had nothing to do with forces between atoms. It came from the idea of <strong>entropy</strong> that we talked about before. In the 1930s and 40s, <a href="https://en.wikipedia.org/wiki/Werner_Kuhn_(chemist)" target="_blank" rel="noopener">Werner Kuhn</a> and <a href="https://en.wikipedia.org/wiki/Paul_Flory" target="_blank" rel="noopener">Paul Flory</a> realised that a polymers behave statistically, like a gas. Stretch it, and you're not pulling atoms apart instead you're forcing a tangled chain into an unlikely, ordered shape. It snaps back because disorder is always more probable than order. Flory won the Nobel Prize for this work in 1974.</p>
 
-    
-    <div class="key-idea" style="background-color: #e7f3ff; padding: 1rem; border-radius: 8px; margin: 1.5rem 0;">
-        <h4 style="margin-top: 0;">🔬 Chemistry to Physics</h4>
-        <p>Knowing chemical structure was one thing, but explaining the behaviour of rubber and why it <em>stretched and sprang back</em> was a different problem. This is where physicists got involved, and it's where your knowledge of thermal physics will be useful.</p>
-        <p>A normal solid (like a metal spring) returns to its original shape because stretching it pulls atoms apart. This means you're fighting against the electrostatic forces holding the material together—the same kind of forces you meet in metallic bonding or the Coulomb force between charged particles.</p>
+    <p>Another physicist <a href="https://en.wikipedia.org/wiki/Pierre-Gilles_de_Gennes" target="_blank" rel="noopener">Pierre-Gilles de Gennes</a> went further, showing in the 1970s that the mathematics of polymer motion connected to some of the coolest ideas in theoretical physics. He connected polymers to the same tools used to describe changes of states in magnets. He won the Nobel Prize in Physics in 1991. His students are professors now. Their students are the researchers publishing papers today.</p>
 
-        <p>But rubber? When you stretch it, something completely different happens. Remarkably, the <strong>internal energy</strong> of the rubber barely changes at all. So if you're not storing energy by pulling atoms apart... <strong>what provides the restoring force?</strong></p>
-    </div>
-    
-    <h3>The Physics View: Enter Statistics and Entropy</h3>
-    <p>In the 1930s and 40s, scientists like Werner Kuhn
-    <a href="https://en.wikipedia.org/wiki/Werner_Kuhn_(chemist)" target="_blank" rel="noopener">[2]</a>   
-    and Paul Flory
-    <a href="https://en.wikipedia.org/wiki/Paul_Flory" target="_blank" rel="noopener">[3]</a>
-     realised they had to treat polymers using <strong>statistical mechanics</strong>. This is the same tool used we describe gases, i.e. using statistics to <em>describe the behaviour of a system</em>, rather than individual particles. Why? Because a polymer suspended in some liquid or a piece of rubber is not a static object. Rather it is a long, flexible chain made of many monomers that are constantly being <strong>jiggled by thermal energy</strong> (<em>sound familiar from the Kinetic Theory of Gases?</em>).</p>
+    <p>A more recent and living researcher is <a href="https://staff.fnwi.uva.nl/s.jabbarifarouji/" target="_blank" rel="noopener">Dr. Sara Jabbari-Farouji</a>, an Associate Professor at the University of Amsterdam. Her group works on everything from the mechanics of polymers to active matter (matter that moves!). Ultimately she is using polymer physics to understand how living systems <em>move</em> through complex environments. Her research is particularly related to my masters project as she often looks at <strong>active polymers</strong> which you'll hear more about very shortly!</p>
 
-     <div style="display: flex; flex-wrap: wrap; gap: 2rem; justify-content: center; margin: 2rem 0;">
-    
-    <!-- Left image and caption -->
-    <div style="flex: 1; min-width: 200px; max-width: 300px;">
-        <div style="width: 100%; height: 400px; overflow: hidden; border-radius: 4px;">
-            <img src="{{ '/images/Werner_Kuhn.jpg' | relative_url }}"
-                 alt="A portrait photograph of the chemist Werner Kuhn."
-                 style="width: 100%; height: 100%; object-fit: cover; display: block;">
-        </div>
-        <p style="margin-top: 0.5rem; font-style: italic; color: #555; font-size: 0.9rem; text-align: center;">
-            <strong>Werner Kuhn</strong> (1899–1963), a pioneer of polymer physics who first applied statistical mechanics to polymer chains.
-        </p>
-    </div>
-    
-    <!-- Right image and caption -->
-    <div style="flex: 1; min-width: 200px; max-width: 300px;">
-        <div style="width: 100%; height: 400px; overflow: hidden; border-radius: 4px;">
-            <img src="{{ '/images/Paul_Flory.jpg' | relative_url }}"
-                 alt="A portrait photograph of the chemist Paul Flory."
-                 style="width: 100%; height: 100%; object-fit: cover; display: block;">
-        </div>
-        <p style="margin-top: 0.5rem; font-style: italic; color: #555; font-size: 0.9rem; text-align: center;">
-            <strong>Paul Flory</strong> (1910–1985) who won the Nobel Prize in Chemistry in 1974 for his fundamental work in polymer physics.
-        </p>
-    </div>
-  
-</div>
-    
-    <p>Here's the link to your A-Level thermal physics:</p>
-    <ul>
-        <li><strong>In a gas:</strong> You have billions of molecules zooming around randomly. Its impossible and unnecessary need to track every molecule. Instead, you use statistics to describe the <em>average</em> behaviour. The pressure on the walls of a container isn't caused by any single molecule, but by the <strong>average effect</strong> of many collisions. This is why we use quantities like \(c_\mathrm{rms}\), as they describe the <em>typical</em> behaviour of the whole system.</li>
-        <li><strong>In a polymer:</strong> A single polymer chain is constantly being jiggled by thermal energy, exploring thousands of different shapes every second. Again, its impossible and unnecessary to track every shape. Instead, you use statistics to describe its <em>average</em> shape: the random coil. The elastic force when you stretch it doesn't come from any single configuration, but from the <strong>average tendency</strong> of the chain to return to its most probable, coiled-up state.</li>
-    </ul>
-    
-    <p>This was a revolutionary shift. Paul Flory, who won the Nobel Prize in Chemistry in 1974, essentially founded the field of polymer physics by showing that the behaviour of polymers could be predicted using statistical methods <a href="https://en.wikipedia.org/wiki/Paul_Flory" target="_blank" rel="noopener">[3]</a>. He introduced concepts like the "random coil" we met earlier, showing that the chain's natural state is a messy ball, simply because that's the statistically most probable arrangement.</p>
-    
-    <h3>Thermodynamics & Uncertainty</h3>
-    <p>So why is polymer physics so cool? Because it shows that <strong>uncertainty and randomness aren't weaknesses</strong> of our measurement but they're the <strong>origin of a material's properties!</strong></p>
-    
-    <p>In the 1970s, the French physicist Pierre-Gilles de Gennes, who won the Nobel Prize in Physics in 1991
-    <a href="https://en.wikipedia.org/wiki/Pierre-Gilles_de_Gennes" target="_blank" rel="noopener">[4]</a>, took this even further. He showed that the mathematics describing how a polymer chain moves (its "reptation": slithering like a snake through a tangle of other chains) was the same mathematics used to describe phase transitions in magnets
-    <a href="https://www.nature.com/articles/nmat2155" target="_blank" rel="noopener">[5]</a>
-    . He helped connect polymer physics to the rest of physics, showing it was a deep and fundamental subject.</p>
-
-    <div style="display: flex; flex-direction: column; align-items: center; width: 100%; margin: 1.25rem 0;">
-    <div style="max-width: 25%;">
-        <img src="{{ '/images/Pierre_DeGennes.jpg' | relative_url }}"
-             alt="A portrait photograph of the physicist Pierre-Gilles de Gennes."
-             style="width: 100%; height: auto; display: block;">
-        <p style="margin-top: 0.5rem; font-style: italic; color: #555; font-size: 0.9rem; text-align: center;">
-            <strong>Pierre-Gilles de Gennes</strong> (1932–2007) who won the Nobel Prize in Physics in 1991 for discovering that methods developed for studying order phenomena in simple systems can be generalized to polymers and liquid crystals.
-        </p>
-    </div>
-    </div>
-    
-    <!-- <div style="background-color: #f0f0f0; padding: 1rem; border-radius: 8px; margin: 1.5rem 0;">
-        <h4 style="margin-top: 0;">📚 References and Further Reading</h4>
-        <p>If you want to explore further, here are some of the key resources that cover this history:</p>
-        <ul>
-            <li><strong>Hermann Staudinger and the Foundation of Polymer Science:</strong> American Chemical Society National Historic Chemical Landmarks [citation:4].</li>
-            <li><strong>Paul J. Flory and his contributions:</strong> Nobel Prize in Chemistry 1974 [citation:4].</li>
-            <li><strong>Pierre-Gilles de Gennes and his generalized theory of phase transitions:</strong> Nobel Prize in Physics 1991 [citation:4].</li>
-            <li><strong>Wikipedia contributors. (2025). Polymer physics.</strong> Wikipedia, The Free Encyclopedia [citation:2]. (A great overview for keen students).</li>
-            <li><strong>A Discussion on the Origins and Development of Polymer Physics</strong> by Yuliang Yang, Acta Polymerica Sinica (2020) [citation:7]. (A more advanced, but fascinating, deep dive).</li>
-        </ul>
-        <p style="margin-bottom: 0;">The textbooks by Flory, de Gennes, and Doi & Edwards are the classic, more advanced texts that built the field [citation:2][citation:5]. You'll find them very challenging to follow at this stage but its good to keep in mind that they exist.</p>
-    </div> -->
 
 </section>
 
   <section id="knotted-polymers-my-contribution" class="scroll-section">
     <h2>Knotted Polymers: My Contribution</h2>
 
-    <p>So what have I been up to in my master's project? Thats a very good question. I've been working on these funny polymers, but I'm interested in how they go from being in a knotted state to unkotted state. This might sound a bit weird, but there are good reasons for why we might be interested in this phenomena. </p>
+    <p>So what have I been up to in my master's project? Thats a very good question. I've been working on these polymers, but I'm interested in how they go from being in knotted up to being unkotted. This might sound a bit weird, but there are good reasons for why we might be interested in this phenomena. </p>
 
-    <p>Remember DNA from biology, and how it is formed of base pairs (or repeating units)? Well that is the very definition of a polymer. Some clever people have measured the distance between adjacent base pairs, and have found it to be ~0.34nm. However, in the human genome there are ~6.27 Giga base pairs. That means if we were to stretch out DNA such that it forms a straight line, it would be just over 2m long!</p>
+    <p>Remember DNA from biology, and how it is formed of base pairs (repeating units)? Well that is the very definition of a polymer. Some very clever people have measured the distance between base pairs, and have found it to be ~0.34nm. However, in the human genome there are ~6.27 Giga (billion!) base pairs. That means if we were to fully stretch out our DNA, it would be just over 2m long!</p>
 
     <div style="text-align: center;">
         <img src="{{ '/images/DNA.png' | relative_url }}"
@@ -219,7 +110,7 @@ redirect_from:
 
     <p>You might see the issue with that if you think about how small a cell is, and how much smaller the cell's nucleus will be. In fact, the diametre of the nucleus in a human cell is 5-10μm. This means we have a problem, how do we fit over 2m of DNA into such a small space?</p>
 
-    <p>The answer to this is something called chromatin. Chromatin packs DNA into much tighter structures by wrapping it around proteins (histones) that are shaped a little bit like biscuits. These biscuit structures then coil up tighter to form something called chromatin. The problem is that sometimes chromatin gets knotted along the way, and thats a problem. It can prevent certain genes from accessed on the DNA.</p>
+    <p>The answer to this is something called chromatin. Chromatin packs DNA into much tighter structures by wrapping it around proteins (histones) that are shaped a little bit like biscuits. These biscuit structures then coil up tighter to form something called chromatin. The problem is that sometimes along the way in this packing process chromatin can get knotted, and thats a problem. It can prevent genes from being accessed on the DNA!</p>
   
     <div style="text-align: center;">
         <img src="{{ '/images/chromatin.png' | relative_url }}"
@@ -227,12 +118,12 @@ redirect_from:
              style="max-width: 60%; height: auto; margin: 1.25rem 0; position: center;">
     </div>
 
-    <p>Luckily, our internal machinery have ways to get around this by exerting some form of forces on the DNA, which we will call 'activity'. The way this works is very poorly characterised. Therefore my job has been to help develop simulations of polymers to better understand what the process of polymer unknotting with activity.</p>
-    
-    <!-- <p>A great analogy to this would be thinking about how when you tie your shoelace in the morning, sometimes it gets unknotted just from walking around. </p> -->
+    <p>Luckily, our cells have ways around this. Molecular motors, tiny machines made of proteins that live inside the nucleus, physically grab the DNA and pull, push, or twist it. This turns DNA into what physicists call an <strong>active polymer</strong>. This is a chain that doesn't just drift randomly, but is constantly being moved by forces. The stronger those forces, the more "active" the polymer.</p>
 
-    <p>To achieve this, I knot a polymer, and then simulate it in a fluid to try and replicate the environment that chromatin would live in within the cell. Check out some videos of the simulations below!</p>
-    
+    <!-- <p>I feel that in here I should perhaps tell them what a active polymer looks like for my system?</p> -->
+
+    <p>This is exactly the kind of system Dr. Sara Jabbari-Farouji studies. But here's the problem: we don't yet have a good understanding of how activity affects knotting. Does being driven by molecular motors help DNA unknot faster? Does it make things worse? How does it depend on the strength of the activity? These are open questions and developing simulations to answer them is what my research is about. Check out some of my simulations below!</p>
+
     <div class="activity-arrow" aria-label="increasing activity from left to right">
       <span>Increasing Activity</span>
     </div>
@@ -279,7 +170,6 @@ redirect_from:
 
         btn.addEventListener('click', function () {
           vids.forEach(v => {
-            v.controls = true;
             v.currentTime = 0;
           });
           vids.forEach(v => {
@@ -290,14 +180,22 @@ redirect_from:
       })();
     </script>
 
-    <p>Notice how with increasing activity, the knotted polymer moves more! Look at how quickly the simulation on the right becomes a straight line versus the middle, and the one on the left never even gets there! This is because if we include activity on our polymer, it forces it into configurations nature doesn't usually favour.</p>
+    <p>We have 3 knots, which are identical. The left most simulation is for a polymer with no forces acting on it. The middle has moderate forces, and the right has very strong forces acting on it. Notice how with increasing activity, the knotted polymer moves more! Look at how quickly the simulation on the right becomes a straight line versus the middle, and the one on the left never even gets there! This is because if we include activity on our polymer, it forces it into configurations nature doesn't usually favour.</p>
 
-    <p>I've been able to charaterise the typical times for a polymer to go from being knotted to unknotted with varying amounts of activity. This has been a great stepping stone for polymer physics in the lab, and a brilliant way for me to exercise all of the skills that I have learned during my physics degree!</p>
+    <p>I've been able to charaterise the typical times for a polymer to go from being knotted to unknotted with varying amounts of activity. We see that generally, activity speeds up unknotting time.</p>
+
+    <div style="text-align: center;">
+        <img src="{{ '/images/results.png' | relative_url }}"
+             alt="A diagram showing a DNA double helix structure, base pairs and the typical distance of 0.34nm between adjacent base pairs."
+             style="max-width: 60%; height: auto; margin: 1.25rem 0; position: center;">
+    </div>
+
+    <p>This has been a great stepping stone for polymer physics in the lab, and a brilliant way for me to exercise all of the skills that I have learned during my physics degree!</p>
   </section>
 
   <section id="why-would-my-parents-care" class="scroll-section">
     <h2>Why Would My Parents Care?</h2>
-    <p>When doing science, I always think its very important to think about the bigger picture. A good way to think about this is if I went home to my parents, how would I explain what I do and why it is useful? Sometimes when you're deep in the maths of statistical mechanics, it can be easy to lose sight of the bigger picture. But the physics of polymers is larger than work at univeristy, in fact it's a hidden science behind a huge number of things your parents (and you!) rely on every single day.</p>
+    <p>When doing science, I always think its very important to think about the bigger picture. A good way to think about this is if I went home to my parents, how would I explain what I do and why it is useful? Sometimes when you're deep in the physics, it can be easy to lose sight of the bigger picture. But the physics of polymers is larger than work at univeristy, in fact it's the hidden science behind a huge number of things your parents (and you!) rely on every single day.</p>
 
     <h3>🏥 1. Health and Medicine</h3>
     <p>Good health is important! Polymer physics is helping to improve medicine.</p>
@@ -409,9 +307,9 @@ redirect_from:
             <ul>
                 <li><strong><a href="https://www.mitacs.ca/our-programs/globalink-research-internship-students/" target="_blank" rel="noopener">Mitacs Globalink Internship:</a></strong> An internship scheme that will take you to Canada, where you can select from a large pool of labs on the exact problems you may want to help solve over 12 weeks. No prior experience is required, just curiosity and motivation.</li>
 
-                <li><strong><a href="https://mattertolife.maxplanckschools.org/uro-research-internship" target="_blank" rel="noopener">Max Planck Matter To Life Internship:</a></strong> An internship scheme that will take you to Germany, where you again you can select from a large pool of labs which are researching problems that interest you. This one lasts for 10 weeks. Again no prior experience is required, but good grades will help you out!</li>
+                <li><strong><a href="https://mattertolife.maxplanckschools.org/uro-research-internship" target="_blank" rel="noopener">Max Planck Matter To Life Internship:</a></strong> An internship scheme that will take you to Germany, where again you can select from a large pool of labs which are researching problems that interest you. This one lasts for 10 weeks. Again no prior experience is required, but good grades will help you out!</li>
 
-                <li><strong>Asking around:</strong> I often live by the motto – don't ask don't get. There are lots of exciting opportunities around us, and when you go to univeristy it goes a long way if you speak to your lectures and tutors. You never know what opportunities you could open by simply showing enthusiasm and getting to know people in the field!</li>
+                <li><strong>Asking around:</strong> I often live by the motto – don't ask don't get. There are lots of exciting opportunities around us, and when you go to univeristy, it goes a long way to speak to people including your lecturers and tutors. You never know what opportunities you could open by simply showing enthusiasm and getting to know people in the field!</li>
             </ul>
         </div>
         
@@ -420,17 +318,6 @@ redirect_from:
             <p>University research isn't the only path. Programs like the <strong>Michelin Science Scholars Program</strong> connect undergraduates directly with industry. Students receive a $2,000 stipend, work on real-world problems (like sustainable alternatives to polyethylene), and tour industrial facilities. As one scholar put it: "There's always this misconception that academic research is completely separate from industry research. Michelin has shown me it's all one science." [citation:9]</p>
         </div> -->
     </div>
-
-    <!-- <h3>🌍 Step 3: Explore the Range of Careers</h3>
-    <p>Physics graduates—especially those with polymer or materials experience—are in high demand across multiple sectors [citation:3]. Here's where you could end up:</p>
-
-    <ul>
-        <li><strong>Research and Development (R&D):</strong> Designing new materials for electronics, healthcare, or sustainable packaging. Think polymer solar cells [citation:1], flexible displays, or biodegradable plastics [citation:9].</li>
-        <li><strong>Medical Physics and Healthcare:</strong> Working with imaging technologies (MRI, ultrasound), radiation therapy, or developing polymer-based drug delivery systems [citation:2][citation:3].</li>
-        <li><strong>Electronics and Semiconductor Industry:</strong> Polymer physicists work on organic light-emitting devices (OLEDs), solar cells, and next-generation batteries [citation:1][citation:3].</li>
-        <li><strong>Manufacturing and Process Engineering:</strong> Optimising how polymers are processed into real products—from car tyres to medical implants [citation:3].</li>
-        <li><strong>Academia and Education:</strong> Teaching and research at universities, often after completing a PhD [citation:3].</li>
-    </ul> -->
 
     <div style="background-color: #e7f3ff; padding: 1.5rem; border-radius: 8px; margin: 2rem 0;">
         <h4 style="margin-top: 0;">✨ The Takeaway from Someone Who's Done It</h4>
